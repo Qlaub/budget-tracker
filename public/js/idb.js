@@ -28,6 +28,8 @@ function saveRecord(record) {
   const transactionObjectStore = transaction.objectStore('new_transaction');
 
   transactionObjectStore.add(record);
+
+  alert('Transaction added!');
 }
 
 function uploadTransaction() {
@@ -60,6 +62,7 @@ function uploadTransaction() {
           transactionObjectStore.clear();
 
           alert('Transaction(s) submitted!');
+          location.reload();
         })
         .catch(err => {
           console.log(err);
