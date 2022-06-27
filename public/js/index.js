@@ -135,7 +135,8 @@ function sendTransaction(isAdding) {
     }
   })
   .catch(err => {
-    // fetch failed, so save in indexed db
+    // fetch failed, so log error and save in indexed db
+    console.log(err);
     saveRecord(transaction);
 
     // clear form
