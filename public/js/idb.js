@@ -41,7 +41,6 @@ function uploadTransaction() {
   const getAll = transactionObjectStore.getAll();
 
   getAll.onsuccess = function() {
-    console.log(getAll.result);
     if (getAll.result.length > 0) {
       fetch('/api/transaction', {
         method: 'POST',
