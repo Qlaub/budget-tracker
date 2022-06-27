@@ -1,9 +1,10 @@
-# Budget Tracker
+# [Budget Tracker](https://budget-tracker-alexg.herokuapp.com/)
 
 ## Description
 A simple web application that gives users a fast and easy way to track their expenses. This web application also features offline access and functionality!
 
-![Budget Tracker](https://user-images.githubusercontent.com/89796902/175859267-7ca83451-e2dc-4832-8f3e-bd17ad086d47.png)
+[Click here](https://budget-tracker-alexg.herokuapp.com/) to view the web applicaton!
+[![Budget Tracker](https://user-images.githubusercontent.com/89796902/175859267-7ca83451-e2dc-4832-8f3e-bd17ad086d47.png)](https://budget-tracker-alexg.herokuapp.com/ "Click to open wesite!")
 
 ## Table of Contents
 - [Installation](#installation)
